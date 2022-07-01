@@ -1,7 +1,6 @@
 <!-- vim: set fenc=utf-8 ts=2 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}: -->
 # terraria-docker
 
-
 <!-- {{{ BUILD IMAGE BY YOURSELF! -->
 # BUILD IMAGE BY YOURSELF!
 I am not providing pull-able images because:
@@ -9,7 +8,7 @@ I am not providing pull-able images because:
 1. I have no idea how to get `docker buildx` to work right so that I can get multiarch builds
 1. I don't know how good I'll be at updating them
 
-Only thing you need to do, if a new Terraria Server version has appeared, is to modify [line 17 in setup.sh](setup.sh#L17) to the correct version:
+Only thing you need to do, if a new Terraria Server version has appeared, is to modify [line 17 in `setup.sh`](setup.sh#L17) to the correct version:
 
 ```bash
   _terrariaver="1436"
@@ -44,7 +43,7 @@ All of the server data is stored, inside the container, in the folder `/home/ter
 
 <!-- {{{ With docker-compose.yml -->
 ## With `docker-compose.yml`
-Here is a very complete `docker-compose.yml` file that builds the image.
+Here is a very complete [`docker-compose.yml`](docker-compose.yml) file that builds the image.
 
 ```yaml
 version: "3.8"
@@ -99,7 +98,7 @@ docker run -dt \
        terrariaimage
 ```
 
-- The `docker-conpose.yml` translated into a `docker run` command:
+- The [`docker-compose.yml`](docker-compose.yml) translated into a `docker run` command:
 ```bash
 # Creating the network
 docker network create \
