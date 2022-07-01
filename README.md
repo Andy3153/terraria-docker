@@ -27,6 +27,8 @@ So, for example, when 1.4.4 releases, all you have to do is modify that to:
 ```
 
 ...and build your image.
+
+(if you don't know what you're doing, the easiest route is to download the repo and run `docker-compose up -d --build`. This'll take care of building the image and starting your container)
 <!-- }}} -->
 
 <!-- {{{ Description -->
