@@ -2,7 +2,7 @@
 # terraria-docker
 
 <!-- {{{ Links -->
-# [GitHub](https://github.com/Andy3153/terraria-docker) [GitLab](https://gitlab.com/Andy3153/terraria-docker)
+# [GitHub](https://github.com/Andy3153/terraria-docker) | [GitLab](https://gitlab.com/Andy3153/terraria-docker)
 <!-- }}} -->
 
 <!-- {{{ BUILD IMAGE BY YOURSELF! -->
