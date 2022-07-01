@@ -1,0 +1,26 @@
+#Set the port number
+port=7777
+
+#Set the server password
+password=
+
+#Sets the max number of players allowed on a server.  Value must be between 1 and 255
+maxplayers=16
+
+#Set the message of the day
+motd=Terraria Docker Container
+
+#Creates a new world if none is found. World size is specified by: 1(small), 2(medium), and 3(large).
+autocreate=1
+
+#Sets the name of the world when using autocreate
+worldname=world
+
+#Sets the difficulty of the world when using autocreate 0(classic), 1(expert), 2(master), 3(journey)
+difficulty=0
+
+#Sets the folder where world files will be stored
+worldpath=/home/terraria/worlds
+
+#Load a world and automatically start the server.
+world=/home/terraria/worlds/world.wld
