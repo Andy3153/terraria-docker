@@ -1,6 +1,31 @@
 <!-- vim: set fenc=utf-8 ts=2 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}: -->
 # terraria-docker
 
+
+<!-- {{{ BUILD IMAGE BY YOURSELF! -->
+# BUILD IMAGE BY YOURSELF!
+I am not providing pull-able images because:
+
+1. I have no idea how to get `docker buildx` to work right so that I can get multiarch builds
+1. I don't know how good I'll be at updating them
+
+Only thing you need to do, if a new Terraria Server version has appeared, is to modify [line 17 in setup.sh](setup.sh#L17) to the correct version:
+
+```bash
+  _terrariaver="1436"
+```
+
+What you need to do is to change that number to the correct version. The number represents the Terraria's version without the dots in between: '1436' means version 1.4.3.6
+
+So, for example, when 1.4.4 releases, all you have to do is modify that to:
+
+```bash
+  _terrariaver="144"
+```
+
+...and build your image.
+<!-- }}} -->
+
 <!-- {{{ Description -->
 ## Description
 This is a Docker image made to deploy a Terraria server.
