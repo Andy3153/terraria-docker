@@ -6,11 +6,11 @@
 <!-- }}} -->
 
 <!-- {{{ BUILD IMAGE BY YOURSELF! -->
-# BUILD IMAGE BY YOURSELF!
-I am not providing pull-able images because:
+# BUILD THE IMAGE BY YOURSELF!
+I am saying this because:
 
-1. I have no idea how to get `docker buildx` to work right so that I can get multiarch builds
-1. I don't know how good I'll be at updating them
+1. I have no idea how to get `docker buildx` to work right so that I can get multiarch builds, so I have a normal image, and then an ARM image
+1. I don't know how good I'll be at updating my images
 
 Only thing you need to do, if a new Terraria Server version has appeared, is to modify [line 17 in `setup.sh`](setup.sh#L17) to the correct version:
 
@@ -28,7 +28,15 @@ So, for example, when 1.4.4 releases, all you have to do is modify that to:
 
 ...and build your image.
 
-(if you don't know what you're doing, the easiest route is to download the repo and run `docker-compose up -d --build`. This'll take care of building the image and starting your container)
+An easy, copy-paste way of building and running the image is:
+
+```bash
+git clone https://github.com/Andy3153/terraria-docker
+cd terraria-docker
+docker-compose up -d --build
+```
+
+Make sure Terraria Server is the latest version
 <!-- }}} -->
 
 <!-- {{{ Description -->
