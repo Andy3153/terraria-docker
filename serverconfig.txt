@@ -11,7 +11,7 @@ maxplayers=16
 motd=Terraria Docker Container
 
 #Creates a new world if none is found. World size is specified by: 1(small), 2(medium), and 3(large).
-autocreate=1
+autocreate=3
 
 #Sets the name of the world when using autocreate
 worldname=world
