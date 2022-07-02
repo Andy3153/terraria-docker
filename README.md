@@ -35,6 +35,7 @@ An easy, copy-paste way of building and running the image is:
 ```bash
 git clone https://github.com/Andy3153/terraria-docker
 cd terraria-docker
+# ... modify line 17 if new Terraria Server version dropped ... #
 docker-compose up -d --build
 ```
 
