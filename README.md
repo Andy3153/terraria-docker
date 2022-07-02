@@ -9,8 +9,10 @@
 # BUILD THE IMAGE BY YOURSELF!
 I am saying this because:
 
-1. I have no idea how to get `docker buildx` to work right so that I can get multiarch builds, so I have a normal image, and then an ARM image
+1. I have no idea how to get `docker buildx` to work right, I'm literally using Docker manifest
 1. I don't know how good I'll be at updating my images
+
+***You can still use the images I publish, I just won't guarantee they're the most up-to-date***
 
 Only thing you need to do, if a new Terraria Server version has appeared, is to modify [line 17 in `setup.sh`](setup.sh#L17) to the correct version:
 
