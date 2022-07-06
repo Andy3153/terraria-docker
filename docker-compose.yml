@@ -4,7 +4,7 @@ version: "3.8"
 services:
   terraria:
     container_name: terraria
-    restart: always
+    restart: unless-stopped
     tty: true
     build: .
     ports:

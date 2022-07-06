@@ -9,6 +9,7 @@ I am saying this because:
 
 1. I have no idea how to get `docker buildx` to work right, I'm literally using Docker manifest
 1. I don't know how good I'll be at updating my images
+1. I switched to an arm64 Raspberry Pi, so I won't provide an `arm32v7` image anymore
 
 ***You can still use the images I publish, I just won't guarantee they're the most up-to-date***
 
@@ -44,7 +45,7 @@ version: "3.8"
 services:
   terraria:
     container_name: terraria
-    restart: always
+    restart: unless-stopped
     tty: true
     image: andy3153/terraria:latest
     ports:
