@@ -36,7 +36,7 @@
   unzip $_archive
   rm $_archive
   cp --verbose -a "${_terrariaver}/Linux/." .
-  mkdir -p $_terrariafolder/worlds
+  mkdir -p $_terrariafolder/data/worlds
 # }}}
 
 # {{{ Move files in server's folder
@@ -44,7 +44,6 @@
   mv /terrariactl $_terrariafolder
   mv /startServer.sh $_terrariafolder
 
-  mkdir $_terrariafolder/data
   mv /serverconfig.txt $_terrariafolder/data
 # }}}
 
