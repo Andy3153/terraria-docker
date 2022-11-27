@@ -11,17 +11,12 @@ services:
       - "7777:7777"
     networks:
       net:
-        ipv4_address: 172.100.0.100
     volumes:
       - data:/home/terraria
       - /etc/localtime:/etc/localtime:ro
 
 networks:
   net:
-    ipam:
-      driver: default
-      config:
-        - subnet: "172.100.0.0/16"
 
 volumes:
   data:
