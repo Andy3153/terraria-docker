@@ -14,7 +14,7 @@
 # {{{ Variables
   _game="terraria"
 
-  _terrariaver="1436"
+  _terrariaver="1449"
   _archive="terraria-server-${_terrariaver}.zip"
   _source="https://terraria.org/api/download/pc-dedicated-server/${_archive}"
 

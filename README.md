@@ -1,7 +1,7 @@
 <!-- vim: set fenc=utf-8 ts=2 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}: -->
 # terraria-docker
 # [GitHub](https://github.com/Andy3153/terraria-docker) | [GitLab](https://gitlab.com/Andy3153/terraria-docker)
-# Current version: 1.4.3.6
+# Current version: 1.4.4.9
 
 <!-- {{{ BUILD THE IMAGE BY YOURSELF! -->
 # BUILD THE IMAGE BY YOURSELF!
