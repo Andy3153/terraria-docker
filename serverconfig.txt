@@ -20,7 +20,7 @@ worldname=world
 difficulty=0
 
 #Sets the folder where world files will be stored
-worldpath=/home/terraria/worlds
+worldpath=/home/terraria/data/worlds
 
 #Load a world and automatically start the server.
-world=/home/terraria/worlds/world.wld
+world=/home/terraria/data/worlds/world.wld

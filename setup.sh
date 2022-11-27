@@ -44,7 +44,8 @@
   mv /terrariactl $_terrariafolder
   mv /startServer.sh $_terrariafolder
 
-  mv /serverconfig.txt $_terrariafolder
+  mkdir $_terrariafolder/data
+  mv /serverconfig.txt $_terrariafolder/data
 # }}}
 
 # {{{ Final steps/cleanup

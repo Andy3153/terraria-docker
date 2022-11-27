@@ -12,7 +12,7 @@ services:
     networks:
       net:
     volumes:
-      - data:/home/terraria
+      - data:/home/terraria/data
       - /etc/localtime:/etc/localtime:ro
 
 networks:

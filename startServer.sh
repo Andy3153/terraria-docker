@@ -6,7 +6,7 @@ _script=$(readlink -f "$0")
 _scriptpath=$(dirname "$_script")
 
 _runnerargs="--server --gc=sgen -O=all"
-_gameargs="-config $_scriptpath/serverconfig.txt"
+_gameargs="-config $_scriptpath/data/serverconfig.txt"
 # }}}
 
 # {{{ Run server
